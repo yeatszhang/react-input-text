@@ -1,6 +1,6 @@
 {
   "name": "react-input-text",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a simple react input with debounce and onEnter",
   "author": {
     "name": "张亦驰",
