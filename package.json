@@ -1,0 +1,58 @@
+{
+  "name": "@mtfe/react-input-text",
+  "version": "0.3.4",
+  "description": "自带合并事件以及回车触发的input text | 美团-平台业务部-前端组-城市支撑组",
+  "author": {
+    "name": "张亦驰",
+    "email": "zhangyichi@meituan.com"
+  },
+  "keywords": [
+    "react",
+    "mt-component",
+    "react-component"
+  ],
+  "files": [
+    "lib",
+    "src",
+    "build",
+    "assets/*.css"
+  ],
+  "main": "./lib/index",
+  "scripts": {
+    "test": "NODE_ENV=production mocha -r test.setup.js --compilers js:babel/register",
+    "start": "gulp start",
+    "build": "gulp compile"
+  },
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "bootstrap": "^3.3.5",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-postcss": "^6.0.0",
+    "react": "0.14.x",
+    "react-hot-loader": "^1.3.0",
+    "shelljs": "^0.5.3",
+    "stream-combiner2": "^1.0.2",
+    "through2": "^2.0.0",
+    "webpack": "^1.12.1",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "precommit": [
+    "test"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "lodash": "^3.10.1"
+  }
+}
