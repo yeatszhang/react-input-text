@@ -1,20 +1,4 @@
-# @mtfe/react-input-text
-
-[![NPM version](http://npm.sankuai.com/badge/v/@mtfe/react-input-text.svg?style=flat-square)](http://npm.sankuai.com/package/@mtfe/react-input-text)
-[![Build Status](http://castle.sankuai.com/api/badge/liuxijin/turbo-component)](http://castle.sankuai.com/gh/liuxijin/turbo-component)
-
-## Development
-
-```
-npm --registry=http://r.npm.sankuai.com install @mtfe/react-input-text 
-npm start
-```
-
-## Usage
-
-```js
-require('@mtfe/react-input-text');
-```
+# react-input-text
 
 ## feature
 
@@ -71,4 +55,4 @@ class Example extends React.Component {
 
 ## License
 
-@mtfe/react-input-text is released under the MIT license.
+react-input-text is released under the MIT license.
