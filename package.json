@@ -1,21 +1,20 @@
 {
-  "name": "@mtfe/react-input-text",
-  "version": "0.3.4",
-  "description": "自带合并事件以及回车触发的input text | 美团-平台业务部-前端组-城市支撑组",
+  "name": "react-input-text",
+  "version": "0.0.1",
+  "description": "a simple react input with debounce and onEnter",
   "author": {
     "name": "张亦驰",
-    "email": "zhangyichi@meituan.com"
+    "email": "yichi.coder@foxmail.com"
   },
   "keywords": [
     "react",
-    "mt-component",
     "react-component"
   ],
   "files": [
     "lib",
     "src",
     "build",
-    "assets/*.css"
+    "assets"
   ],
   "main": "./lib/index",
   "scripts": {
@@ -43,13 +42,10 @@
     "webpack": "^1.12.1",
     "webpack-dev-server": "^1.12.1"
   },
-  "precommit": [
-    "test"
-  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/npm.git"
+    "url": "https://github.com/yeatszhang/react-input-text"
   },
   "dependencies": {
     "babel-preset-react": "^6.5.0",
