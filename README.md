@@ -19,7 +19,7 @@
 
 ## Example
 
-```
+```js
 class Example extends React.Component {
   constructor(props) {
     super(props);
